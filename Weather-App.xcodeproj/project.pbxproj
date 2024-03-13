@@ -15,6 +15,7 @@
 		9934220A2BA11D8C006A3420 /* Weather_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993422092BA11D8C006A3420 /* Weather_AppUITests.swift */; };
 		9934220C2BA11D8C006A3420 /* Weather_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934220B2BA11D8C006A3420 /* Weather_AppUITestsLaunchTests.swift */; };
 		99AB108B2BA1C57200492936 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AB108A2BA1C57200492936 /* WeatherButton.swift */; };
+		99B482182BA26CD000139C95 /* WeatherDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B482172BA26CD000139C95 /* WeatherDayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		993422092BA11D8C006A3420 /* Weather_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_AppUITests.swift; sourceTree = "<group>"; };
 		9934220B2BA11D8C006A3420 /* Weather_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		99AB108A2BA1C57200492936 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
+		99B482172BA26CD000139C95 /* WeatherDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		993421ED2BA11D8A006A3420 /* Weather-App */ = {
 			isa = PBXGroup;
 			children = (
+				99B482172BA26CD000139C95 /* WeatherDayView.swift */,
 				993421EE2BA11D8A006A3420 /* Weather_AppApp.swift */,
 				993421F02BA11D8A006A3420 /* ContentView.swift */,
 				993421F22BA11D8C006A3420 /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99B482182BA26CD000139C95 /* WeatherDayView.swift in Sources */,
 				993421F12BA11D8A006A3420 /* ContentView.swift in Sources */,
 				993421EF2BA11D8A006A3420 /* Weather_AppApp.swift in Sources */,
 				99AB108B2BA1C57200492936 /* WeatherButton.swift in Sources */,
